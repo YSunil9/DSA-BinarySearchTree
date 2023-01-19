@@ -47,7 +47,11 @@ namespace DSA_BinarySearchTree
                     this.rightIndex++;
                     this.right.Display();
                 }
-            } 
+            }
+        public void GetSize()
+        {
+            Console.WriteLine("Size:" + (1 + this.leftIndex + this.rightIndex));
+        }
     }
 }
 
