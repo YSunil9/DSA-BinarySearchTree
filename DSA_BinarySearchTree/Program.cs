@@ -17,8 +17,13 @@
             function.AddNode(95);
             function.AddNode(40);
             function.AddNode(22);
+            Console.WriteLine("Sorted Binary Search Tree");
             function.Display();
+            Console.WriteLine("---------------------------");
             function.GetSize();
+            BinarySearchTree<int> node = function.FindElement(63, function);
+            Console.WriteLine($"\nSearched Element is : {node.Data}");
+            Console.ReadLine();
         }
     }
 }
